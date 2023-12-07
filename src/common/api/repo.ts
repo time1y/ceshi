@@ -65,13 +65,10 @@ export const initEmptyRepo = async (
   showTips: boolean = true
 ) => {
   const README = `
-# Welcome to use PicX
+# 欢迎你的到来！
 
-[PicX](https://github.com/XPoet/picx) is a simple and powerful image hosting tool. It supports image hosting services via GitHub repository.
+[ARZHP](https://img.arzhp.cn) 图库
 
-PicX is completely open source, and you can use it for free.
-
-If you like it, please give it a star on [GitHub](https://github.com/XPoet/picx).
         `
   const { owner, selectedRepo: repo, selectedBranch: branch } = userConfigInfo
 
@@ -89,7 +86,7 @@ If you like it, please give it a star on [GitHub](https://github.com/XPoet/picx)
     url: `/repos/${owner}/${repo}/contents/README.md`,
     method: 'PUT',
     data: {
-      message: 'Init repo via PicX(https://github.com/XPoet/picx)',
+      message: '通过ARZHP初始化储存库(https://img.arzhp.cn)',
       branch,
       content: window.btoa(README)
     },
