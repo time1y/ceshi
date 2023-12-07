@@ -1,13 +1,13 @@
 {
-  "name": "picx",
+  "name": "ARZHP",
   "version": "2.4.0",
   "private": false,
   "author": "XPoet <i@xpoet.cn>",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/XPoet/picx/issues"
+    "url": "https://img.arzhp.cn"
   },
-  "homepage": "https://github.com/XPoet/picx#readme",
+  "homepage": "https://img.arzhp.cn",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
